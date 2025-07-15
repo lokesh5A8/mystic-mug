@@ -7,12 +7,9 @@
 
     <style>
         body{
-            background-image: url("https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?cs=srgb&dl=pexels-apgpotr-683039.jpg&fm=jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
+            
             margin: 0;
             padding: 0;
-            width: 100%;
         }
         header{ 
             align-items: center;
@@ -35,6 +32,39 @@
         .hi{
             cursor: pointer;
         }
+        #first{
+            background-image: url('backg.jpg');
+            width: 100%;
+            height: 650px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;       
+            font-size: 20px;     
+        }
+        #second{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #third{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #fourth{
+            background-image: url('wood.jpg');
+            width: 100%;
+            height: 700px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black;       
+            font-size: 20px;   
+        }
     </style>
 
     <body>
@@ -54,6 +84,81 @@
                 <img src="menu.png" alt="" width="26" class="hi">
             </div>
         </header>
+
+        <div id="first">
+
+            <div>
+
+            </div>
+            
+            <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <img src="colored-logo.png" alt="" style="width: 200px;">
+                <h1>Mystic Mug</h1>
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/slider-separator-img.png" alt="">
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <div id="second">
+            <h1 style="font-size: 50px;">Our Delicious Offer</h1>
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png" alt="">
+            <p style="font-size: 23px;">we offer coffee for all tyoes of your mood!</p>
+        </div>
+
+        <br><br><br>
+
+        <div id="third">
+
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-5.png" alt="" >
+            <h1>Types of Coffee</h1>
+            </div>
+
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-6.png" alt="">
+            <h1>Bean Varities</h1>
+            </div>
+
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-7.png" alt="">
+            <h1>Coffee & Pastry</h1>
+            </div>
+
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-8.png" alt="">
+                <h1>Coffee To Go</h1>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div id="fourth">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <h1 style="font-size: 50px;">The Coffee Herald</h1>
+                <img src="black.png" alt="">
+                <p style="font-size: 22px;">Don't sip the coffee only, sip the emotions</p>
+            </div>
+
+            <div style="display: flex; align-items: center; justify-content: space-around; column-gap: 40px;">
+                <div>
+                    <img src="https://cdn.pixabay.com/photo/2019/09/29/08/12/coffee-4512564_1280.jpg" alt="" width="300px">
+                    <h1>Roasting the Beans</h1>
+                    <p style="width: 300px; text-align: justify;">Coffee begins its journey with the roasting of green beans. Expert roasters monitor temperature and time, transforming raw beans into aromatic, flavorful coffee.</p>
+                </div>
+                <div>
+                    <img src="https://cdn.pixabay.com/photo/2013/11/05/23/55/coffee-206142_1280.jpg" alt="" width="300px">
+                    <h1>Grinding for Perfection</h1>
+                    <p style="width: 300px; text-align: justify;">The next step is grinding the roasted beans. Precision is key: coarse grinds suit French press brewing, while fine grinds are ideal for espresso.</p>
+                </div>
+                <div>
+                    <img src="https://cdn.pixabay.com/photo/2019/07/13/11/44/coffee-4334647_1280.jpg" alt="" width="300px">
+                    <h1>Brewing the Coffee</h1>
+                    <p style="width: 300px; text-align: justify;">With freshly ground coffee ready, the brewing process begins. Water temperature, brewing method, and extraction time all play crucial roles in crafting the perfect cup.</p>
+                </div>
+                
+            </div>
+        </div>
     </body>
 
 </html>
