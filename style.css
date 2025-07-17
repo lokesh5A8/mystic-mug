@@ -53,9 +53,9 @@ body{
             height: 800px;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;
-            color: black;       
-            font-size: 20px;   
+            background-size: cover; 
+            display: flex;
+            flex-direction: column;
         }
         #fifth{
             background-image: url('workspace.jpg');
@@ -66,4 +66,50 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+        #sixth{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 20px;
+        }
+        #seventh{
+            background-image: url('wood.jpg');
+            height: 1000px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            display: flex;
+            flex-direction: column;
+        }
+        #eighth
+        {
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            column-gap: 12px; 
+            row-gap: 12px; 
+            flex-wrap: wrap;
+        }
+        #ninth{
+            background-image: url('wood.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 230px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        footer{
+            background-color: black;
+            height: 230px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        footer a{
+            color: white;
         }
